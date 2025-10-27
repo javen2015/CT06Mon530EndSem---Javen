@@ -6,10 +6,10 @@ function setup(){
     fill("pink");
     textAlign(CENTER)
     textSize(20)
-    yPos = 30;
+    yPos = 50;
 }
 function draw(){
-    for (let i = 0; i < pokemons.length; i++) {
+    for (let i = 0; i < pokemons.length + 1; i++) {
         text(pokemons[i-1],width/2,yPos * i)
     }
 }
